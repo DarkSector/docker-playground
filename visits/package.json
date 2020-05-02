@@ -1,0 +1,14 @@
+{
+  "name": "visits",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "*",
+    "redis": "^3.0.2"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}

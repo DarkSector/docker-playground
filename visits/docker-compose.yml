@@ -4,5 +4,6 @@ services:
     image: 'redis'
   node-app:
     build: .
+    restart: on-failure
     ports:
       - "4001:8081"
